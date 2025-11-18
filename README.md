@@ -9,9 +9,9 @@ conda activate hw3
 
 Task1：
 train_GPT2.py：用於訓練基於 GPT-2 的音樂生成模型。使用 MIDI 文件作為訓練數據，並使用字典文件將音樂事件映射到詞語。
-test_conditional.py：測試訓練好的模型，根據給定的條件生成音樂。
+test_unconditional.py：測試訓練好的模型，根據給定的條件生成音樂。
 
-要重現Task1的生成結果可使用: python task1/test_conditional.py --model_path ./trained_model/best_model.pkl --prompt_path ./prompt_midi.mid --output_path ./generated_midi.mid --n_target_bar 24 --temperature 1.2 --topk 5
+要重現Task1的生成結果可使用: python task1/test_unconditional.py --model_path ./trained_model/best_model.pkl --prompt_path ./prompt_midi.mid --output_path ./generated_midi.mid --n_target_bar 24 --temperature 1.2 --topk 5
 
 
 Task2:
