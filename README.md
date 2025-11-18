@@ -20,4 +20,4 @@ task2.py：使用訓練好的模型，根據提供的提示生成音樂延續部
 運行以下命令來生成音樂延續： python task2/task2.py --model_path ./trained_model/best_model.pkl --prompt_path ./prompt_midi.mid --output_path ./generated_midi.mid --n_target_bar 24 --temperature 1.2 --topk 5 --dict_path ./dictionary.pkl
 
 
-Transformer執行和以上類似
+Transformer執行同上
